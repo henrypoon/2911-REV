@@ -49,7 +49,7 @@ public class Employee implements Cloneable{
 		try {
 			Employee employee = new Employee(this.name, this.salary);
 			return employee;
-		} catch (CloneNotSupportedException e){
+		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 			return null;
 		}
